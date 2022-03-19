@@ -1,5 +1,4 @@
- /*  
- * 3.7 Write a C program that uses the statements in the preceding exercise to 
+/* 3.7 Write a C program that uses the statements in the preceding exercise to 
  * calculate x raised to the y power. The program should have a while iteration
  * control statement.
  */
