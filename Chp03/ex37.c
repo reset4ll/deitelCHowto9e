@@ -2,6 +2,7 @@
  * calculate x raised to the y power. The program should have a while iteration
  * control statement.
  */
+
 #include <stdio.h>
 
 int main(void) 
