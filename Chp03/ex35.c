@@ -1,4 +1,4 @@
- /*3.4 Write a C statement to accomplish each of the following tasks.
+/* 3.4 Write a C statement to accomplish each of the following tasks.
  * a) Define variable x to be of type int and set it to 1.
  * b) Define variable sum to be of type int and set it to 0.
  * c) Add variable x to variable sum and assign the result to variable sum.
