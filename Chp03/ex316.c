@@ -10,7 +10,8 @@
 
 #include <stdio.h>
 
-int main(void) {
+int main(void) 
+{
     // Inicializa las variables.
     float galones = 0;
     int millas = 0;
