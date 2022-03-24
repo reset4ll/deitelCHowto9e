@@ -42,7 +42,7 @@ int main(void)
         } else {  // Control
             if (galones == 0) {
                 printf("%s", "\nEl valor no puede ser cero!\n");
-                return -1;	// Saliendo...
+                return -1; // Saliendo...
             }
         } // Fin if
     } // Fin while
