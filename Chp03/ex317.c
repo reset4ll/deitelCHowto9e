@@ -30,7 +30,6 @@ int main(void)
 
     // Bucle
     while (num_cuenta != -1) {  // Centinela salida
-
         printf("%s", "Introducir saldo inicial: ");
         scanf("%lf", &saldo_ini); // Saldo inicial
 
@@ -48,7 +47,6 @@ int main(void)
 
         // Aviso
         if (nuevo_saldo > limite) {
-
             printf("Número de cuenta: %d\n", num_cuenta);
             printf("Límite del crédito: %.2f\n", limite);
             printf("Nuevo saldo: %.2f\n", nuevo_saldo);
