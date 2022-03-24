@@ -20,12 +20,12 @@ int main(void)
     float media = 0;
     int count = 0;
 
-    while (galones != -1) {	 // Valor centinela para finalizar
+    while (galones != -1) {	// Valor centinela para finalizar
         // Galones
         printf("%s", "Introduce los galones usados (-1 para finalizar): ");
         scanf("%f", &galones);
 
-        if (galones > 0) {	// Control
+        if (galones > 0) { // Control
             // Millas
             printf("%s", "Introduce las millas realizadas: ");
             scanf("%d", &millas);
@@ -39,16 +39,16 @@ int main(void)
             total += resultado;
             ++count;
 
-        } else {    // Control
+        } else {  // Control
             if (galones == 0) {
                 printf("%s", "\nEl valor no puede ser cero!\n");
                 return -1;	// Saliendo...
             }
-        } // fin if
-    } // fin while
+        } // Fin if
+    } // Fin while
 
     // Imprime la media
-    media = total / (float)count;	// Cast
+    media = total / (float)count; // Cast
     printf("\nLa media total fue de: %f\n", media);
 
     return 0;
